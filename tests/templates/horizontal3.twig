@@ -1,0 +1,23 @@
+<!DOCYTPE html>
+<html>
+	<head>
+		<title>Myriade - Horizontal layout</title>
+		<style>
+			body {
+				margin: 0;
+				background: black;
+				overflow-y: hidden;
+			}
+			.gallery {
+				{{debug ? 'background: red;'}}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="gallery" style="{{gallery.css}}">
+			{% for image in gallery.images %}
+				<img src="{{image.path}}" alt="" style="{{image.css}}">
+			{% endfor %}
+		</div>
+	</body>
+</html>

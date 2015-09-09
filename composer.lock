@@ -1,0 +1,199 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "5434af0d1c8513ea709f80b719a9a2c4",
+    "packages": [
+        {
+            "name": "pyrsmk/chernozem",
+            "version": "3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pyrsmk/Chernozem.git",
+                "reference": "ca6d9370fae3922f3e9f1ccd4bd9abb7cd50d3ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pyrsmk/Chernozem/zipball/ca6d9370fae3922f3e9f1ccd4bd9abb7cd50d3ce",
+                "reference": "ca6d9370fae3922f3e9f1ccd4bd9abb7cd50d3ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aurélien Delogu",
+                    "email": "dev@dreamysource.fr",
+                    "homepage": "http://dreamysource.fr"
+                }
+            ],
+            "description": "An advanced dependency injection container",
+            "keywords": [
+                "container",
+                "dependency",
+                "injection"
+            ],
+            "time": "2015-03-14 08:18:39"
+        },
+        {
+            "name": "pyrsmk/funktions",
+            "version": "0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pyrsmk/Funktions.git",
+                "reference": "33dfbf0024459b40c34c0ea92f5921d45d5c1c52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pyrsmk/Funktions/zipball/33dfbf0024459b40c34c0ea92f5921d45d5c1c52",
+                "reference": "33dfbf0024459b40c34c0ea92f5921d45d5c1c52",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/array.php",
+                    "src/color.php",
+                    "src/debug.php",
+                    "src/system.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aurélien Delogu",
+                    "email": "dev@dreamysource.fr",
+                    "homepage": "http://dreamysource.fr"
+                }
+            ],
+            "description": "Several useful PHP functions",
+            "keywords": [
+                "array",
+                "color",
+                "debug",
+                "functions",
+                "system"
+            ],
+            "time": "2015-07-24 09:50:30"
+        },
+        {
+            "name": "pyrsmk/imagix",
+            "version": "0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pyrsmk/Imagix.git",
+                "reference": "72eec88d8d8f1d513eb129a93fa90f94bf84b758"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pyrsmk/Imagix/zipball/72eec88d8d8f1d513eb129a93fa90f94bf84b758",
+                "reference": "72eec88d8d8f1d513eb129a93fa90f94bf84b758",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.3.0",
+                "pyrsmk/chernozem": "3.0.*",
+                "pyrsmk/funktions": "0.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aurélien Delogu",
+                    "email": "dev@dreamysource.fr",
+                    "homepage": "http://dreamysource.fr"
+                }
+            ],
+            "description": "The simple image effects library",
+            "keywords": [
+                "effect",
+                "handling",
+                "image",
+                "manipulation"
+            ],
+            "time": "2015-03-14 08:24:59"
+        },
+        {
+            "name": "pyrsmk/longuevue",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pyrsmk/LongueVue.git",
+                "reference": "7429b0f0bacc0c672ef4d97a10f3d72508741aac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pyrsmk/LongueVue/zipball/7429b0f0bacc0c672ef4d97a10f3d72508741aac",
+                "reference": "7429b0f0bacc0c672ef4d97a10f3d72508741aac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aurélien Delogu",
+                    "email": "dev@dreamysource.fr",
+                    "homepage": "http://dreamysource.fr"
+                }
+            ],
+            "description": "A simple contents extractor",
+            "keywords": [
+                "content",
+                "contents",
+                "data",
+                "extract",
+                "pattern"
+            ],
+            "time": "2015-03-14 08:25:42"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

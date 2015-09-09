@@ -1,0 +1,32 @@
+{
+	"name": "pyrsmk/myriade",
+	"description": "A fluid/responsive multi-layout gallery generator",
+	"keywords": ["image", "gallery", "metro", "layout", "fluid", "responsive"],
+	"license": "MIT",
+	"authors": [{
+		"name": "Aurélien Delogu",
+		"email": "dev@dreamysource.fr",
+		"homepage": "http://dreamysource.fr"
+	}],
+	"require": {
+		"php": ">=5.3.0",
+		"pyrsmk/chernozem": "^3.0",
+		"pyrsmk/imagix": "^0.5.3"
+	},
+	"autoload": {
+		"psr-0" : {
+			"" : "src/"
+		}
+	},
+	"archive": {
+		"exclude": [
+			".git/",
+			".gitignore",
+			"tests/",
+			"tests/images/",
+			"tests/gallery/",
+			"vendor/",
+			"composer.*"
+		]
+	}
+}
