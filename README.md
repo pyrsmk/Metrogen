@@ -104,6 +104,12 @@ Additionnaly, you can add a margin around each image :
 $myriade['margin'] = 10;
 ```
 
+Now, the most interesting thing we can configure is the gallery layout. It can be `metro`, `horizontal` or `vertical`. Test them out!
+
+```php
+$myriade['layout'] = 'metro';
+```
+
 Here we are! Our weighted images and our workspace are all set. Now, we can build our gallery.
 Try to play with all the values to better understand how Myriade's working and how you can achieve exactly what you need ;)
 
