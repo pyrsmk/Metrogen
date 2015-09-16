@@ -1,4 +1,4 @@
-Myriade 1.0.0
+Myriade 1.0.1
 =============
 
 Myriade is a tiny library that aims to build automatically a fluid/responsive [vertical]()/[horizontal]() gallery with several different layouts :
@@ -12,21 +12,11 @@ Install
 
 Pick up the source or install it with [Composer](https://getcomposer.org/) :
 
-```json
-{
-    "require": {
-        "pyrsmk/myriade": "~1.0"
-    }
-}
+```shell
+composer require pyrsmk/myriade
 ```
 
-If you're installing it with Composer, you just need to import the Composer's autoloader :
-
-```php
-require 'vendor/autoload.php';
-```
-
-If not, you'll need to set up an autoloader to load Myriade by yourself with its dependencies : [Chernozem](https://github.com/pyrsmk/Chernozem) and [Imagix](https://github.com/pyrsmk/Imagix).
+If you're not installing it with Composer, you'll need to set up an autoloader to load Myriade by yourself with its dependencies : [Chernozem](https://github.com/pyrsmk/Chernozem) and [Imagix](https://github.com/pyrsmk/Imagix).
 
 Examples
 --------
@@ -199,7 +189,11 @@ $myriade['callback'] = function($imagix) {
 Note about the gallery generation
 ----------------------------------
 
-Myriade will do 20 attempts to generate the gallery. If the parameters are too complicated, or weird, or impossible to handle, it will throw an exception. If you've encountered this problem, you'll need to modify some values. `weight_scale` should not be too big, `block_size` should not be too small, etc...
+Myriade will do 20 attempts (by default) to generate the gallery. If the parameters are too complicated, or weird, or impossible to handle, it will throw an exception. If you've encountered this problem, you'll need to modify some values. `weight_scale` should not be too big, `block_size` should not be too small, etc... But if you want specifically Myriade to render such a gallery and don't want to modify your parameters, you can modify modify the number of attempts :
+
+```php
+$myriade['attempts'] = 1000;
+```
 
 License
 -------

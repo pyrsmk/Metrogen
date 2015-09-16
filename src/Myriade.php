@@ -13,9 +13,10 @@ class Myriade extends Chernozem {
 		integer $rows
 		integer $margin
 		integer $weight_scale
+        integer $attempts
 		mixed $callback
 		array $__scenarii
-		integer $__retries
+		integer $__attempts
 	*/
 	protected $__data;
 	protected $layout = 'metro';
@@ -27,9 +28,10 @@ class Myriade extends Chernozem {
 		'min' => 1,
 		'max' => 4
 	);
+    protected $attempts = 20;
 	protected $callback;
 	protected $__scenarii = array();
-	protected $__retries;
+	protected $__attempts;
 	
 	/*
 		Constructor
@@ -102,9 +104,9 @@ class Myriade extends Chernozem {
 			$workspace = $this->_initWorkspace();
 			$gallery = $this->_createGallery($directory, $orientation, $workspace);
 			if($gallery === false) {
-				++$this->__retries;
-				if($this->__retries == 20) {
-					$this->__retries = 0;
+				++$this->__attempts;
+				if($this->__attempts == $this->attempts) {
+					$this->__attempts = 0;
 					throw new Exception("It seems we cannot build a gallery with the current configuration, please verify your parameters");
 				}
 			}

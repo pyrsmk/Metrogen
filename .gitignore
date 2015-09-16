@@ -1,5 +1,5 @@
 vendor/
 tests/vendor/
 tests/composer.lock
-tests/images/
-tests/gallery/
+tests/images/*
+tests/gallery/*

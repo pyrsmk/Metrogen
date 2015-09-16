@@ -3,9 +3,8 @@
 ini_set('display_errors', 1);
 
 // Load classes
-require '../vendor/autoload.php';
-require '../src/Myriade.php';
 require 'vendor/autoload.php';
+require '../src/Myriade.php';
 $lumy = new Lumy\Http();
 
 // Set the current page
