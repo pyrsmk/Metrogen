@@ -17,16 +17,5 @@
 		"psr-0" : {
 			"" : "src/"
 		}
-	},
-	"archive": {
-		"exclude": [
-			".git/",
-			".gitignore",
-			"tests/",
-			"tests/images/",
-			"tests/gallery/",
-			"vendor/",
-			"composer.*"
-		]
 	}
 }
