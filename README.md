@@ -1,4 +1,4 @@
-Myriade 1.0.2
+Myriade 1.0.3
 =============
 
 Myriade is a tiny library that aims to build automatically a fluid/responsive [vertical]()/[horizontal]() gallery with several different layouts :
@@ -117,11 +117,15 @@ array(
 	'images' => array(
 		array(
 			'path' => string,
+			'width' => integer,
+			'height' => integer,
 			'css' => string,
 			'data' => mixed
 		),
 		array(
 			'path' => string,
+			'width' => integer,
+			'height' => integer,
 			'css' => string,
 			'data' => mixed
 		),

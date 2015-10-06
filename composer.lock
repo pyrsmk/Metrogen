@@ -4,20 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5434af0d1c8513ea709f80b719a9a2c4",
+    "hash": "98e21d5e2c933ed8373cef6bb18e01d7",
+    "content-hash": "e4875f9dc4abc1fd727caaa0a0c1fb33",
     "packages": [
         {
             "name": "pyrsmk/chernozem",
-            "version": "3.0.4",
+            "version": "3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pyrsmk/Chernozem.git",
-                "reference": "ca6d9370fae3922f3e9f1ccd4bd9abb7cd50d3ce"
+                "reference": "d39ffb4122f2a7d918cf491681d4691878d37a93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pyrsmk/Chernozem/zipball/ca6d9370fae3922f3e9f1ccd4bd9abb7cd50d3ce",
-                "reference": "ca6d9370fae3922f3e9f1ccd4bd9abb7cd50d3ce",
+                "url": "https://api.github.com/repos/pyrsmk/Chernozem/zipball/d39ffb4122f2a7d918cf491681d4691878d37a93",
+                "reference": "d39ffb4122f2a7d918cf491681d4691878d37a93",
                 "shasum": ""
             },
             "require": {
@@ -46,20 +47,20 @@
                 "dependency",
                 "injection"
             ],
-            "time": "2015-03-14 08:18:39"
+            "time": "2015-09-19 18:17:44"
         },
         {
             "name": "pyrsmk/funktions",
-            "version": "0.1.4",
+            "version": "0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pyrsmk/Funktions.git",
-                "reference": "33dfbf0024459b40c34c0ea92f5921d45d5c1c52"
+                "reference": "484fdb5e2d79f88a35f31057dea6e72e45a1f124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pyrsmk/Funktions/zipball/33dfbf0024459b40c34c0ea92f5921d45d5c1c52",
-                "reference": "33dfbf0024459b40c34c0ea92f5921d45d5c1c52",
+                "url": "https://api.github.com/repos/pyrsmk/Funktions/zipball/484fdb5e2d79f88a35f31057dea6e72e45a1f124",
+                "reference": "484fdb5e2d79f88a35f31057dea6e72e45a1f124",
                 "shasum": ""
             },
             "require": {
@@ -93,20 +94,20 @@
                 "functions",
                 "system"
             ],
-            "time": "2015-07-24 09:50:30"
+            "time": "2015-09-16 12:51:03"
         },
         {
             "name": "pyrsmk/imagix",
-            "version": "0.5.3",
+            "version": "0.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pyrsmk/Imagix.git",
-                "reference": "72eec88d8d8f1d513eb129a93fa90f94bf84b758"
+                "reference": "6fb21edb3fda00b17d14bdfdc7a2fa2f0e25f7f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pyrsmk/Imagix/zipball/72eec88d8d8f1d513eb129a93fa90f94bf84b758",
-                "reference": "72eec88d8d8f1d513eb129a93fa90f94bf84b758",
+                "url": "https://api.github.com/repos/pyrsmk/Imagix/zipball/6fb21edb3fda00b17d14bdfdc7a2fa2f0e25f7f1",
+                "reference": "6fb21edb3fda00b17d14bdfdc7a2fa2f0e25f7f1",
                 "shasum": ""
             },
             "require": {
@@ -139,51 +140,7 @@
                 "image",
                 "manipulation"
             ],
-            "time": "2015-03-14 08:24:59"
-        },
-        {
-            "name": "pyrsmk/longuevue",
-            "version": "0.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pyrsmk/LongueVue.git",
-                "reference": "7429b0f0bacc0c672ef4d97a10f3d72508741aac"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pyrsmk/LongueVue/zipball/7429b0f0bacc0c672ef4d97a10f3d72508741aac",
-                "reference": "7429b0f0bacc0c672ef4d97a10f3d72508741aac",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aurélien Delogu",
-                    "email": "dev@dreamysource.fr",
-                    "homepage": "http://dreamysource.fr"
-                }
-            ],
-            "description": "A simple contents extractor",
-            "keywords": [
-                "content",
-                "contents",
-                "data",
-                "extract",
-                "pattern"
-            ],
-            "time": "2015-03-14 08:25:42"
+            "time": "2015-09-16 12:51:57"
         }
     ],
     "packages-dev": [],

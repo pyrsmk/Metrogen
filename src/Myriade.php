@@ -302,6 +302,8 @@ class Myriade extends Chernozem {
 			// Add image to the gallery
 			$gallery['images'][] = array(
 				'path'		=> $newpath,
+				'width'		=> $data['position']['width'],
+				'height'	=> $data['position']['height'],
 				'css'		=> 'position: absolute;'.
 							   'width: '.(($data['position']['width'] - ($this->margin * 2)) * 100 / ($this->columns * $this->block_size)).'%;'.
 							   'height: '.(($data['position']['height'] - ($this->margin * 2)) * 100 / ($this->rows * $this->block_size)).'%;'.
