@@ -36,11 +36,9 @@ First, we need to understand how Myriade works. It takes a list of weighted imag
 
 ```php
 $myriade = new Myriade(array(
-	array(
-		'path' => 'image.jpg',
-		'weight' => 300,
-		'data' => array('id' => 12) // optional, you can put here all the data you want to retrieve in each built image
-	)
+	'path' => 'image.jpg',
+	'weight' => 300,
+	'data' => array('id' => 12) // optional, you can put here all the data you want to retrieve in each built image
 ));
 ```
 
