@@ -1,5 +1,7 @@
-vendor/
+node_modules/
 tests/vendor/
 tests/composer.lock
-tests/images/*
+composer.lock
+vendor/
 tests/gallery/*
+tests/images/*
