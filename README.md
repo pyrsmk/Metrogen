@@ -170,17 +170,50 @@ The horizontal layout works completely differently from the vertical layout. We 
 
 If you want to have a gallery that takes `70%` of the viewport height, you need to set your workspace height to `700px`. And if we want our gallery to take `100%` of the viewport height, we need a workspace height of `1000px`.
 
-Responsive layouts
-------------------
+Responsiveness
+--------------
 
-We still don't have a responsive gallery in our hands, just a fluid one. We need to build as many galleries as we have responsive modes. Per example, if we want to handle `max-width: 1280px`, `max-width: 768px` and `max-width: 480px` media queries, we'll build 3 gallery, on for each mode with different parameters. It's up to you to set them as your needs.
+Myriade galleries are not responsives but fluids. To have a full responsive gallery, you can add some more CSS in your template, on-the-fly. The trick is to disable the gallery's style and to force images style under a specific width. The following example is based on [Twig](http://twig.sensiolabs.org).
 
-Take a look at the examples at the top of this doc to see something concrete ;)
+```html
+<div>
+	<style scoped>
+		@media screen and (max-width: 767px) {
+			.gallery__link {
+				display: block;
+				width: 300px !important;
+				height: 300px !important;
+				overflow: hidden;
+				margin: 0.5em auto;
+			}
+		}
+		
+		@media screen and (min-width: 768px) {
+			.gallery {
+				{{myriade.css}}
+			}
+
+			{% for index, image in myriade %}
+				.gallery__link{{index}} {
+					{{image.css}}
+				}
+			{% endfor %}
+		}
+	</style>
+    <div class="gallery">
+        {% for index, image in myriade %}
+            <a class="gallery__link gallery__link{{index}}">
+                <img class="gallery__image" src="{{image.path}}">
+            </a>
+        {% endfor %}
+    </div>
+</div>
+```
 
 Apply effects to images
 -----------------------
 
-If needed, you can apply some effects to your images when Myriade's building them, by setting a callback. An [Imagix](https://github.com/pyrsmk/Imagix) image will be passed to that callback. Please read the related documentation to see what effects are available and how we can use them.
+If needed, you can apply some effects to your images when Myriade's building them, by setting a callback. An [Imagix](https://github.com/pyrsmk/Imagix) object will be passed to that callback. Please read the related documentation to see what effects are available and how we can use them.
 
 ```php
 $myriade['callback'] = function($imagix) {
