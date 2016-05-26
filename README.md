@@ -1,4 +1,4 @@
-Myriade 1.0.3
+Myriade 1.0.4
 =============
 
 Myriade is a tiny library that aims to build automatically a fluid/responsive [vertical]()/[horizontal]() gallery with several different layouts :
@@ -12,7 +12,7 @@ Install
 
 Pick up the source or install it with [Composer](https://getcomposer.org/) :
 
-```shell
+```
 composer require pyrsmk/myriade
 ```
 
