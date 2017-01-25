@@ -1,8 +1,0 @@
-{
-	"require": {
-		"twig/twig": "^1.21",
-		"pyrsmk/lumy": "^2.8",
-		"pyrsmk/imagix": "^0.5.3",
-		"pyrsmk/chernozem": "^3.0"
-	}
-}
