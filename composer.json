@@ -1,6 +1,6 @@
 {
 	"name": "pyrsmk/metrogen",
-	"description": "Generate metadata to create a metro gallery",
+	"description": "Metro style gallery generator",
 	"keywords": ["image", "gallery", "metro"],
 	"license": "MIT",
 	"authors": [{

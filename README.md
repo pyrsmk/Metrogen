@@ -1,9 +1,9 @@
 Metrogen 2.0.0
 ==============
 
-Formerly know as Myriade, Metrogen is a tiny library aiming to automatically create metadata, ready to integrate, for a metro-style gallery (as we can see since Windows 8). The position/dimensions of each place in the gallery is randomized.
+Metrogen is a tiny library aiming to automatically create metadata, ready to integrate, for a metro style gallery (as we can see in Windows 8). The position/dimensions of each place in the gallery is randomized.
 
-This library is part of Myriade 2 project (link coming soon).
+This library is part of the Myriade 2 project (link coming soon).
 
 Install
 -------
